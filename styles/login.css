@@ -1,0 +1,17 @@
+.login-container {
+  height: 100vh;
+}
+
+.login-container h2 {
+  text-align: center;
+}
+
+.login-form {
+  width: 350px;
+}
+
+.login-container .btn {
+  width: 100%;
+  font-size: 18px;
+  padding: 12px 24px;
+}

@@ -1,0 +1,36 @@
+.product-banner {
+  position: relative;
+  height: 50vh;
+  /* background: url('../assets/sanpham/gong_kinh_can/banner_kinh_can\ .jpg'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.product-banner .container {
+  height: 100%;
+}
+
+.product-banner__title {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  transform: translateY(-50%);
+  font-size: 90px;
+}
+
+.product-banner__title-right {
+  position: absolute;
+  top: 50%;
+  right: 80px;
+  transform: translateY(-50%);
+  font-size: 90px;
+}
+
+.products {
+  margin-top: 32px;
+  margin-bottom: 60px;
+}

@@ -1,0 +1,35 @@
+main {
+  background: url('../assets/41e3fa5e2a73be95f89c0784e84eced71.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+
+main .container {
+  height: 100%;
+}
+
+.search-order-modal {
+  max-width: 800px;
+  margin: 10rem auto;
+}
+
+.search-order-modal h2 {
+  margin-bottom: 28px;
+  text-transform: uppercase;
+}
+
+.search-order-modal input {
+  padding: 12px;
+  margin-bottom: 24px;
+}
+
+.search-order-modal .btn-primary {
+  margin-top: 2%;
+  padding: 18px 24px;
+}
+
+footer {
+  margin-top: 0;
+}
