@@ -122,9 +122,10 @@ a:hover {
 
 input,
 textarea {
-  border: 1px solid #c1d0ec;
+  border: 1px solid #ddd;
   padding: 6px 12px;
   border-radius: 10px;
+  background-color: rgb(241, 245, 248);
 }
 
 input:focus,

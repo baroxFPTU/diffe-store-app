@@ -1,12 +1,21 @@
+renderCart(getCart()); // render cart immediately when web is loaded
+
+/**
+ * Render all added product in cart which one get from localStorage
+ * @param {*} cart
+ */
+
 function renderCart(cart) {
-  const cartDOM = document.querySelector('.cart-table tbody');
+  const cartDOM = $('.cart-table tbody'); // define location where need to render cart
 
   if (cart.length === 0) {
-    cartDOM.innerHTML = '<p style="padding: 24px; font-size: 18px">Bạn chưa thêm sản phẩm nào.</p>';
+    // if dont have any item in cart, render this one.
+    cartDOM.html('<p style="padding: 24px; font-size: 18px">Bạn chưa thêm sản phẩm nào.</p>');
   } else {
-    const cartHTML = cart.map((item) => {
+    // if not, start to generate HTML list of cart item. Ready to render
+    const cartHTML = $.map(cart, (item) => {
       if (item.amount == 0) return;
-      const totalAmount = item.price * item.amount;
+      const totalAmount = item.price * item.amount; // calc total amount
 
       return `
         <tr>
@@ -44,22 +53,29 @@ function renderCart(cart) {
           <td><span class="price">${formatCurrency(totalAmount)}  </span></td>
         </tr>
         `;
-    });
+    }).join('');
 
-    cartDOM.innerHTML = cartHTML;
+    cartDOM.html(cartHTML); // insert HTML into defined location
+    renderTotal('cart-summary__list', cart);
   }
-
-  renderTotal('cart-summary__list', cart);
 }
 
+/**
+ * + Render total summary with current cart and promote (sale) if have.
+ * + Will be call when increase or decrease amount.
+ */
+
 function renderTotal(cartTotalDOM, cart, promote = 0) {
+  // Calc subtotal (without apply promote) and total amount (applied promote)
   const subTotalAmount = cart.reduce((total, item) => (total += item.amount * item.price), 0);
-  1;
   const totalAmount = cart.reduce(
     (total, item) => (total += item.amount * item.price * (1 - promote)),
     0
   );
-  const cartSummaryDOM = document.querySelector(`.${cartTotalDOM}`);
+
+  const cartSummaryDOM = $(`.${cartTotalDOM}`); // define location where need to render it
+
+  // Generate HTML of subtotal and total amount
   const cartSummaryHTML = `
   <div class="cart-summary__row">
     <span class="title">Tạm tính</span>
@@ -71,8 +87,12 @@ function renderTotal(cartTotalDOM, cart, promote = 0) {
   </div>
   `;
 
-  cartSummaryDOM.innerHTML = cartSummaryHTML;
+  cartSummaryDOM.html(cartSummaryHTML); // insert Generated HTML into defined location
 }
+
+/**
+ * Handle apply promote when user enter valid promote code
+ */
 
 const promoteButton = document.querySelector('.btn-promote');
 const orderBtn = document.querySelector('.btn-order');
@@ -90,9 +110,12 @@ promoteButton.addEventListener('click', function () {
   inputPromoteDOM.value = '';
 });
 
+/**
+ * Wait until order button is clicked, then redirect to payment.html page. If not => notify for user
+ */
 orderBtn.addEventListener('click', function () {
   if (getCart().length == 0) return alert('Bạn cần chọn sản phảm trước khi thanh toán.');
+
+  // Redirect to payment.html
   window.location.href = './payment.html';
 });
-
-renderCart(getCart());

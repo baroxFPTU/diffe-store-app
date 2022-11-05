@@ -1,9 +1,9 @@
 main {
-  background: url('../assets/41e3fa5e2a73be95f89c0784e84eced71.png');
+  background: url('../assets/7195232.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
 }
 
 main .container {
@@ -11,8 +11,11 @@ main .container {
 }
 
 .search-order-modal {
-  max-width: 800px;
-  margin: 10rem auto;
+  max-width: 900px;
+  padding: 64px 128px;
+  border-radius: 18px;
+  background-color: #fff;
+  /* margin: 10rem auto; */
 }
 
 .search-order-modal h2 {
@@ -21,8 +24,9 @@ main .container {
 }
 
 .search-order-modal input {
-  padding: 12px;
+  padding: 18px;
   margin-bottom: 24px;
+  width: 100%;
 }
 
 .search-order-modal .btn-primary {

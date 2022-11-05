@@ -16,6 +16,7 @@
 
 .hero__content {
   position: relative;
+  margin-bottom: 30px;
 }
 
 .hero__content .hero__slogan {
@@ -81,7 +82,7 @@
 }
 
 .best-seller__btn-view-more {
-  margin-top: 100px;
+  margin-top: 50px;
   min-width: 200px;
   padding: 12px 24px;
 }
