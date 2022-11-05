@@ -31,7 +31,7 @@ function renderProductDetail() {
     <h2>${productDetail.name}</h2>
     <p class="material">Chất liệu: ${productDetail.material}</p>
     <span class="product-detail__price"> ${productDetail.price}đ </span>
-    <button class="btn btn-primary">Thêm vào giỏ hàng</button>
+    <button class="btn btn-primary" onClick="addToCart({name: '${productDetail.name}', price: ${productDetail.price}, id:${productDetail.id}})">Thêm vào giỏ hàng</button>
   `;
 
     productInfoDOM.innerHTML = productInfoHTML;
