@@ -10,28 +10,43 @@ function renderProductDetail() {
       }
     });
 
-    const productImagesHTML = `
-      <img
+    const productImagesHTML =
+      productDetail.type === 'trong-kinh'
+        ? `
+        <img
         class="main-img"
         src="${productDetail.images[0]}"
         alt=""
       />
-      <img
-        class="sub-img"
-        src="${productDetail.images[1]}"
-        alt=""
-      />
-      <img
-        class="sub-img"
-        src="${productDetail.images[2]}"
-        alt=""
-      />
-    `;
+  `
+        : `
+    <img
+      class="main-img"
+      src="${productDetail.images[0]}"
+      alt=""
+    />
+ <img
+   class="sub-img"
+   src="${productDetail.images[1]}"
+   alt=""
+ />
+ <img
+   class="sub-img"
+   src="${productDetail.images[2]}"
+   alt=""
+ />
+  `;
     const productInfoHTML = `
     <h2>${productDetail.name}</h2>
     <p class="material">Chất liệu: ${productDetail.material}</p>
-    <span class="product-detail__price"> ${productDetail.price}đ </span>
-    <button class="btn btn-primary" onClick="addToCart({name: '${productDetail.name}', price: ${productDetail.price}, id:${productDetail.id}})">Thêm vào giỏ hàng</button>
+    ${
+      productDetail.type === 'trong-kinh' &&
+      `<p class="description">${productDetail.description}</p>`
+    }
+    <span class="product-detail__price"> ${formatCurrency(productDetail.price)} </span>
+    <button class="btn btn-primary" onClick="addToCart({name: '${productDetail.name}', price: ${
+      productDetail.price
+    }, id:${productDetail.id}})">Thêm vào giỏ hàng</button>
   `;
 
     productInfoDOM.innerHTML = productInfoHTML;

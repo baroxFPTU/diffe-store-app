@@ -36,6 +36,7 @@ table tbody td {
 
 table tbody td .product__thumb {
   width: 100px;
+  height: 100px;
 }
 
 .amount-input {

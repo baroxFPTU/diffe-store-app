@@ -7,9 +7,9 @@ const BEST_SELLER_PRODUCTS = [
     category: 'kim-loai',
     type: 'kinh-can',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -20,9 +20,9 @@ const BEST_SELLER_PRODUCTS = [
     category: 'kim-loai',
     type: 'kinh-can',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -33,9 +33,9 @@ const BEST_SELLER_PRODUCTS = [
     category: 'kim-loai',
     type: 'kinh-can',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
 ];
@@ -49,9 +49,9 @@ const PRODUCTS = [
     category: 'kim-loai',
     type: 'kinh-can',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -62,9 +62,9 @@ const PRODUCTS = [
     category: 'kim-loai',
     type: 'kinh-can',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -75,9 +75,9 @@ const PRODUCTS = [
     category: 'kim-loai',
     type: 'kinh-can',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -88,9 +88,9 @@ const PRODUCTS = [
     category: 'kim-loai',
     type: 'kinh-can',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -101,9 +101,9 @@ const PRODUCTS = [
     category: 'kim-loai',
     type: 'kinh-can',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -115,9 +115,9 @@ const PRODUCTS = [
     type: 'kinh-can',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -129,9 +129,9 @@ const PRODUCTS = [
     type: 'kinh-can',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -143,9 +143,9 @@ const PRODUCTS = [
     type: 'kinh-can',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -157,9 +157,9 @@ const PRODUCTS = [
     type: 'kinh-can',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
 
@@ -171,9 +171,9 @@ const PRODUCTS = [
     category: 'nhua-mix-kim-loai',
     type: 'kinh-can',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -184,9 +184,9 @@ const PRODUCTS = [
     category: 'nhua-mix-kim-loai',
     type: 'kinh-can',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -197,9 +197,9 @@ const PRODUCTS = [
     category: 'nhua-mix-kim-loai',
     type: 'kinh-can',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -210,9 +210,9 @@ const PRODUCTS = [
     category: 'nhua-mix-kim-loai',
     type: 'kinh-can',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -223,9 +223,9 @@ const PRODUCTS = [
     category: 'nhua-mix-kim-loai',
     type: 'kinh-can',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
 
@@ -237,9 +237,9 @@ const PRODUCTS = [
     category: 'kim-loai',
     type: 'kinh-ram',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -250,9 +250,9 @@ const PRODUCTS = [
     category: 'kim-loai',
     type: 'kinh-ram',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -263,9 +263,9 @@ const PRODUCTS = [
     category: 'kim-loai',
     type: 'kinh-ram',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -276,9 +276,9 @@ const PRODUCTS = [
     category: 'kim-loai',
     type: 'kinh-ram',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -289,9 +289,9 @@ const PRODUCTS = [
     category: 'kim-loai',
     type: 'kinh-ram',
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
 
@@ -304,9 +304,9 @@ const PRODUCTS = [
     type: 'kinh-ram',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -318,9 +318,9 @@ const PRODUCTS = [
     type: 'kinh-ram',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -332,9 +332,9 @@ const PRODUCTS = [
     type: 'kinh-ram',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -346,9 +346,9 @@ const PRODUCTS = [
     type: 'kinh-ram',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -360,9 +360,9 @@ const PRODUCTS = [
     type: 'kinh-ram',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
 
@@ -375,9 +375,9 @@ const PRODUCTS = [
     type: 'kinh-ram',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -389,9 +389,9 @@ const PRODUCTS = [
     type: 'kinh-ram',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -403,9 +403,9 @@ const PRODUCTS = [
     type: 'kinh-ram',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -417,9 +417,9 @@ const PRODUCTS = [
     type: 'kinh-ram',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
@@ -431,52 +431,52 @@ const PRODUCTS = [
     type: 'kinh-ram',
 
     images: [
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
-      './assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/3b6adf77-5247-4aef-8037-5772356b9551.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/518d8c2d-cc86-4cb2-ab9e-03d80992aee6.jpg',
+      '/assets/sanpham/gong_kinh_can/kim_loai/san%20pham%201/0247376b-7520-4ef8-96de-349859ba9f2f.jpg',
     ],
   },
   {
     name: 'Antifog',
     price: 400000,
     type: 'trong-kinh',
-    images: ['./assets/sanpham/trong_kinh_va_phu_kien/chong_asx/antifog.jpg'],
+    images: ['/assets/sanpham/trong_kinh_va_phu_kien/chong_asx/antifog.jpg'],
     description:
-      'Một sản%20phẩm%20không thể thiếu dành cho dân%20văn%20phòng, những người thường xuyên%20tiếp xúc với ánh sáng xanh. Bên%20cạnh tính năng tuyệt vời chống chói, chống hơi nước và bụi bẩn.',
+      'Một sản phẩm không thể thiếu dành cho dân văn phòng, những người thường xuyên tiếp xúc với ánh sáng xanh. Bên cạnh tính năng tuyệt vời chống chói, chống hơi nước và bụi bẩn.',
     material: 'chong-anh-xanh',
   },
   {
     name: 'Chemi',
     type: 'trong-kinh',
-    images: ['./assets/sanpham/trong_kinh_va_phu_kien/chong_asx/chemi156.jpg'],
+    images: ['/assets/sanpham/trong_kinh_va_phu_kien/chong_asx/chemi156.jpg'],
     price: 400000,
     description:
-      'Đến%20từ thương hiệu hàng đầu Hàn%20Quốc, các sản%20phẩm%20tròng kính của Chemi luôn%20chiếm%20được nhiều sự yêu mến%20của người dùng bởi chất lượng và giá cả vô cùng phải chăng.',
+      'Đến từ thương hiệu hàng đầu Hàn Quốc, các sản phẩm tròng kính của Chemi luôn chiếm được nhiều sự yêu mến của người dùng bởi chất lượng và giá cả vô cùng phải chăng.',
     material: 'chong-anh-xanh',
   },
   {
     name: 'Kodak',
     type: 'trong-kinh',
-    images: ['./assets/sanpham/trong_kinh_va_phu_kien/chong_asx/kodak1.60.jpg'],
+    images: ['/assets/sanpham/trong_kinh_va_phu_kien/chong_asx/kodak1.60.jpg'],
     price: 400000,
     description:
-      'Sở hữu lợi thế về sự mỏng nhẹ, giúp người đeo luôn%20thoải mái kể cả khi phải sử dụng kính cả ngày.',
+      'Sở hữu lợi thế về sự mỏng nhẹ, giúp người đeo luôn thoải mái kể cả khi phải sử dụng kính cả ngày.',
     material: 'chong-anh-xanh',
   },
 
   {
     name: 'EYEWEAR',
     type: 'trong-kinh',
-    images: ['./assets/sanpham/trong_kinh_va_phu_kien/thuong/eyewear.jpg'],
+    images: ['/assets/sanpham/trong_kinh_va_phu_kien/thuong/eyewear.jpg'],
     price: 400000,
     description:
-      'Sử dụng chất liệu Polycarbonate cho độ bền%20tốt, chống trầy. Đặc biệt phù hợp dành cho trẻ em, giúp đảm%20bảo an%20toàn.',
+      'Sử dụng chất liệu Polycarbonate cho độ bền tốt, chống trầy. Đặc biệt phù hợp dành cho trẻ em, giúp đảm bảo an toàn.',
     material: 'khong-chong-anh-xanh',
   },
   {
     name: 'MK1TK',
     type: 'trong-kinh',
-    images: ['./assets/sanpham/trong_kinh_va_phu_kien/thuong/mk1.jpg'],
+    images: ['/assets/sanpham/trong_kinh_va_phu_kien/thuong/mk1.jpg'],
     price: 400000,
     description:
       'Tròng được chế tác bằng thuỷ tinh cho độ trong suốt cao, đáp ứng nhu cầu cho những người có độ khúc xạ cao.',
@@ -485,10 +485,46 @@ const PRODUCTS = [
   {
     name: 'MK2TK',
     type: 'trong-kinh',
-    images: ['./assets/sanpham/trong_kinh_va_phu_kien/thuong/mk2.jpg'],
+    images: ['/assets/sanpham/trong_kinh_va_phu_kien/thuong/mk2.jpg'],
     price: 400000,
     description:
-      'Tròng kính nhựa cho độ nhẹ cao hơn%20so với tròng thuỷ tinh. Đây là sự lựa chọn%20phổ biến%20của nhiều người dùng.',
+      'Tròng kính nhựa cho độ nhẹ cao hơn so với tròng thuỷ tinh. Đây là sự lựa chọn phổ biến của nhiều người dùng.',
     material: 'khong-chong-anh-xanh',
+  },
+];
+
+const promotes = {
+  SALE30: 0.3,
+  SALE20: 0.2,
+};
+
+const BLOGPOSTS = [
+  {
+    id: 1,
+    title: 'TRÒNG KÍNH ESSILOR EYEZEN CRIZAL: PHÉP MÀU CỦA CÔNG NGHỆ',
+    url: 'https://docs.google.com/document/d/1yEGH5rb58dQSeZu3TNAng_FX3Yj6lciAzwkbAyjKHrU',
+    createdAt: '2022/03/12',
+    image: '/assets/DIFFE_Blog/bài1.jpg',
+  },
+  {
+    id: 2,
+    title: 'HƯỚNG DẪN SỬA GỌNG KÍNH TẠI NHÀ',
+    url: 'https://docs.google.com/document/d/1xBRf8pj8nuBxa2BmKCudm13dhP2KeRth4MkrwTKuWvo',
+    createdAt: '2022/06/14',
+    image: '/assets/DIFFE_Blog/bài2.jpg',
+  },
+  {
+    id: 3,
+    title: 'MẸO CHỌN GỌNG KÍNH THEO KHUÔN MẶT - BẠN ĐÃ BIẾT?',
+    url: 'https://docs.google.com/document/d/1OOub4pVn251LNjevUaMP9rOrdgB3osm0FOT4eag7sW8/edit?fbclid=IwAR0Al3RJ5aqUHCS2jNm7AFvIRPeXnkkUt4tMRd3lo4l_47b8jeSn_ZAVbCM',
+    createdAt: '2022/03/17',
+    image: '/assets/DIFFE_Blog/bài3.jpg',
+  },
+  {
+    id: 4,
+    title: 'CÙNG DIFFE ĂN GÌ ĐỂ TỐT CHO MẮT CỦA BẠN',
+    url: 'https://docs.google.com/document/d/1UIVIj3acrIY3MP42GJ8C0tynWGvMntWOGouUfeFb_9o/edit?fbclid=IwAR1xf_cmvksOoDxp3Yh1kQpbWAv-5zPqAMO0hWim0AmnqoW0sCF2bQYC6nI#',
+    createdAt: '2022/08/22',
+    image: '/assets/DIFFE_Blog/bài4.jpg',
   },
 ];

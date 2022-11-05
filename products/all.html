@@ -33,35 +33,36 @@
                 <i class="fa fa-search" aria-hidden="true"></i>
               </button>
             </div>
-            <button class="btn btn-square btn_cart">
+            <a class="btn btn-square btn_cart" href="/order/cart.html">
               <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-            </button>
-            <button class="btn btn-primary">Login</button>
+            </a>
+            <a class="btn btn-primary" href="./log-in.html">Login</a>
           </div>
         </div>
         <div class="header-bottom">
           <ul>
             <li>
-              <a class="active" href="/">Trang chủ</a>
+              <a href="/">Trang chủ</a>
             </li>
             <li>
-              <a href="#">Sản phẩm</a>
+              <a class="active" href="/products/all.html">Sản phẩm</a>
             </li>
             <li>
-              <a href="#">Dịch vụ</a>
+              <a href="/services.html">Dịch vụ</a>
             </li>
             <li>
-              <a href="#">Ưu đãi</a>
+              <a href="/promotes.html">Ưu đãi</a>
             </li>
             <li>
-              <a href="#">DIFFE Blog</a>
+              <a href="/blog.html">DIFFE Blog</a>
             </li>
             <li>
-              <a href="#">Tra cứu đơn hàng</a>
+              <a href="/order/search.html">Tra cứu đơn hàng</a>
             </li>
           </ul>
         </div>
       </header>
+
       <div class="page-content">
         <main>
           <section class="products">
@@ -69,22 +70,42 @@
             <section class="categories-grid container">
               <div class="category">
                 <img src="../assets/sanpham/gong_kinh_can/banner_kinh_can .jpg" alt="" />
-                <a href="#" class="category__info">Xem thêm</a>
+                <a
+                  href="../categories/kinh-can.html"
+                  class="category__info"
+                  onClick="setProductType('kinh-can')"
+                  >Xem thêm</a
+                >
                 <h3 class="category__title category__title-bottom-left">Gọng kính cận</h3>
               </div>
               <div class="category">
                 <img src="../assets/sanpham/gong_kinh_ram/banner kinh ram 2.jpg" alt="" />
-                <a href="#" class="category__info">Xem thêm</a>
+                <a
+                  href="../categories/kinh-ram.html"
+                  class="category__info"
+                  onClick="setProductType('kinh-ram')"
+                  >Xem thêm</a
+                >
                 <h3 class="category__title category__title-top-left">Gọng kính râm</h3>
               </div>
               <div class="category">
                 <img src="../assets/sanpham/trong_kinh_va_phu_kien/banner trong kinh .jpg" alt="" />
-                <a href="#" class="category__info">Xem thêm</a>
+                <a
+                  href="../categories/trong-kinh.html"
+                  class="category__info"
+                  onClick="setProductType('trong-kinh')"
+                  >Xem thêm</a
+                >
                 <h3 class="category__title category__title-center">tròng kính</h3>
               </div>
               <div class="category">
                 <img src="../assets/sanpham/trong_kinh_va_phu_kien/banner phu kien.jpg" alt="" />
-                <a href="#" class="category__info">Xem thêm</a>
+                <a
+                  href="../categories/phu-kien.html"
+                  class="category__info"
+                  onClick="setProductType('phu-kien')"
+                  >Xem thêm</a
+                >
                 <h3 class="category__title category__title-center">Phụ kiện</h3>
               </div>
             </section>
@@ -313,5 +334,11 @@
         </footer>
       </div>
     </div>
+
+    <script src="../js/data.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+      renderProducts('products-grid', PRODUCTS);
+    </script>
   </body>
 </html>

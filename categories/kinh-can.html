@@ -23,377 +23,45 @@
   </head>
   <body>
     <div class="wrapper-grid">
-      <!DOCTYPE html>
-      <html lang="en">
-        <head>
-          <meta charset="UTF-8" />
-          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>DIFFE - Trang chủ</title>
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap"
-            rel="stylesheet"
-          />
-          <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-            integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-          />
-          <link rel="stylesheet" href="./styles/main.css" />
-          <link rel="stylesheet" href="./styles/home.css" />
-        </head>
-        <body>
-          <div class="wrapper-grid">
-            <header class="header">
-              <div class="header-top container">
-                <h2 class="header__logo">DIFFEyewear</h2>
-                <div class="header__menu">
-                  <div class="header__search">
-                    <input type="text" placeholder="Tìm kiếm..." />
-                    <button class="btn btn-square btn-search">
-                      <i class="fa fa-search" aria-hidden="true"></i>
-                    </button>
-                  </div>
-                  <a class="btn btn-square btn_cart" href="../order/cart.html">
-                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                  </a>
-                  <a class="btn btn-primary" href="../log-in.html">Login</a>
-                </div>
-              </div>
-              <div class="header-bottom">
-                <ul>
-                  <li>
-                    <a href="/">Trang chủ</a>
-                  </li>
-                  <li>
-                    <a href="../products/all.html" class="active">Sản phẩm</a>
-                  </li>
-                  <li>
-                    <a href="../services.html">Dịch vụ</a>
-                  </li>
-                  <li>
-                    <a href="../promotes.html">Ưu đãi</a>
-                  </li>
-                  <li>
-                    <a href="../blog.html">DIFFE Blog</a>
-                  </li>
-                  <li>
-                    <a href="../order/search.html">Tra cứu đơn hàng</a>
-                  </li>
-                </ul>
-              </div>
-            </header>
-
-            <div class="page-content">
-              <main>
-                <section class="hero">
-                  <div class="container">
-                    <div class="hero__content">
-                      <h1 class="hero__logo">DIFFEeyewear</h1>
-                      <p class="hero__slogan">“your best glasses“</p>
-                    </div>
-                  </div>
-                </section>
-                <section class="best-seller">
-                  <div class="best-seller__header container">
-                    <div class="best-seller__header__logo">
-                      <img src="./assets/DIFEYewear_Logo.png" alt="DIFFE Logo" />
-                    </div>
-                    <h2>DIFFE - Sự khác biệt tạo nên bạn</h2>
-                  </div>
-                  <div class="best-seller__banner">
-                    <div class="best-seller__banner__thumb">
-                      <img src="./assets/trangchu/banner2.jpg" alt="" />
-                    </div>
-                    <div class="best-seller__banner__content container">
-                      <h2>Best seller</h2>
-                      <p>BST Sản phẩm bán chạy</p>
-                    </div>
-                  </div>
-                  <div class="best-seller__products container">
-                    <div class="products-grid"></div>
-                    <a class="btn btn-primary best-seller__btn-view-more" href="/products/all.html"
-                      >Xem thêm</a
-                    >
-                  </div>
-                </section>
-                <section class="categories">
-                  <div class="container">
-                    <h2 class="section__title">Danh mục sản phẩm</h2>
-                    <div class="categories__grid">
-                      <div class="category">
-                        <img src="./assets/trangchu/kinh can.jpg" alt="" />
-                        <div class="category__info">
-                          <h3>Gọng kính cận</h3>
-                          <a
-                            class="btn btn-viewmore"
-                            onClick="setProductType('kinh-can')"
-                            href="/categories/kinh-can.html"
-                            >Xem thêm</a
-                          >
-                        </div>
-                      </div>
-                      <div class="category">
-                        <img src="./assets/trangchu/kinh râm.jpg" alt="" />
-                        <div class="category__info">
-                          <h3>Gọng kính râm</h3>
-                          <a
-                            class="btn btn-viewmore"
-                            onClick="setProductType('kinh-ram')"
-                            href="/categories/kinh-ram.html"
-                            >Xem thêm</a
-                          >
-                        </div>
-                      </div>
-                      <div class="category">
-                        <img src="./assets/trangchu/tròng kính.jpg" alt="" />
-                        <div class="category__info">
-                          <h3>Tròng kính</h3>
-                          <a
-                            class="btn btn-viewmore"
-                            onClick="setProductType('trong-kinh')"
-                            href="/categories/trong-kinh.html"
-                            >Xem thêm</a
-                          >
-                        </div>
-                      </div>
-                      <div class="category">
-                        <img src="./assets/trangchu/phu-kien.jpg" alt="" />
-                        <div class="category__info">
-                          <h3>Phụ kiện</h3>
-                          <a
-                            class="btn btn-viewmore"
-                            onClick="setProductType('phu-kien')"
-                            href="/categories/phu-kien.html"
-                            >Xem thêm</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <section class="blog">
-                  <div class="container">
-                    <h2 class="section__title-left">DIFFE BLOG</h2>
-                    <div class="blog-grid">
-                      <article class="blogpost">
-                        <div class="blogpost__thumb">
-                          <img src="./assets/trangchu/blog1.jpg" alt="" />
-                        </div>
-                        <div class="blogpost__info">
-                          <h3>
-                            <a href="#"> Các bệnh về mắt và phương pháp điều trị cần biết </a>
-                          </h3>
-                          <time>20/11/2022</time>
-                        </div>
-                      </article>
-                      <article class="blogpost">
-                        <div class="blogpost__thumb">
-                          <img src="./assets/trangchu/blog1.jpg" alt="" />
-                        </div>
-                        <div class="blogpost__info">
-                          <h3>
-                            <a href="#"> Các bệnh về mắt và phương pháp điều trị cần biết </a>
-                          </h3>
-                          <time>20/11/2022</time>
-                        </div>
-                      </article>
-                      <article class="blogpost">
-                        <div class="blogpost__thumb">
-                          <img src="./assets/trangchu/blog1.jpg" alt="" />
-                        </div>
-                        <div class="blogpost__info">
-                          <h3>
-                            <a href="#"> Các bệnh về mắt và phương pháp điều trị cần biết </a>
-                          </h3>
-                          <time>20/11/2022</time>
-                        </div>
-                      </article>
-                    </div>
-                  </div>
-                </section>
-                <section class="services">
-                  <div class="container">
-                    <h2 class="section__title-left">Dịch vụ</h2>
-                    <div class="services-grid">
-                      <div class="service">
-                        <div class="left">
-                          <i class="fa fa-shield" aria-hidden="true"></i>
-                        </div>
-                        <div class="right">
-                          <div class="service__header">
-                            <h3>CHÍNH SÁCH BẢO HÀNH</h3>
-                          </div>
-                          <div class="service__body">
-                            <p>
-                              Chúng tôi tự tin là đơn vị có chế độ hậu mãi tốt nhất Việt Nam khi áp
-                              dụng chính sách bảo hành một năm và đổi trả sản phẩm không cần lí do
-                              trong 30 ngày. Hệ thống dữ liệu được cập nhật liên tục và chính xác để
-                              dễ dàng tra cứu thông tin.
-                            </p>
-                            <a href="#">Chi tiết >></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="service">
-                        <div class="left"><i class="fa fa-refresh" aria-hidden="true"></i></div>
-                        <div class="right">
-                          <div class="service__header">
-                            <h3>THU CŨ ĐỔI MỚI</h3>
-                          </div>
-                          <div class="service__body">
-                            <p>
-                              Thay vì bỏ ra một số tiền lớn để mua kính mắt với dịch vụ “Thu Cũ Đổi
-                              Mới" - GIẢM 10%" đơn hàng kính mắt của Lily, quý khách hàng sẽ được hỗ
-                              trợ thu lại kính mắt và tròng cũ với giá cực kỳ ưu đãi, tiết kiệm chi
-                              phí nhất có thể.
-                            </p>
-                            <a href="#">Chi tiết >></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="service">
-                        <div class="left"><i class="fa fa-eye" aria-hidden="true"></i></div>
-                        <div class="right">
-                          <div class="service__header">
-                            <h3>ĐO MẮT MIỄN PHÍ</h3>
-                          </div>
-                          <div class="service__body">
-                            <p>
-                              DIFFE thực hiện đo khám mắt miễn phí cho khách hàng khi đặt lịch trước
-                              24 tiếng. Với các bác sĩ chuyên khoa, trình độ chuyên môn cao. Tư vấn
-                              kính mắt phù với từng loại bệnh về mắt cho khách hàng.
-                            </p>
-                            <a href="#">Chi tiết >></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="service">
-                        <div class="left">
-                          <i class="fa fa-paint-brush" aria-hidden="true"></i>
-                        </div>
-                        <div class="right">
-                          <div class="service__header">
-                            <h3>VỆ SINH VÀ BẢO QUẢN MẮT KÍNH</h3>
-                          </div>
-                          <div class="service__body">
-                            <p>
-                              DIFFE đã nhận biết được vấn đề này của mọi người, vậy nên hôm nay Lily
-                              sẽ hướng dẫn bạn cách lau chùi, vệ sinh chiếc kính của bạn thật sạch
-                              sẽ mỗi ngày, để có một tầm mình thật sáng rõ và tươi mới.
-                            </p>
-                            <a href="#">Chi tiết >></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <section class="subscribe">
-                  <div class="container">
-                    <h2>Đăng kí ngay</h2>
-                    <form action="" id="sub-form">
-                      <input type="text" placeholder="Họ và tên" />
-                      <input type="text" placeholder="Email" />
-                      <input type="text" placeholder="Số điện thoại" />
-                    </form>
-                    <button class="btn btn-primary" type="submit" form="sub-form">Đăng kí</button>
-                  </div>
-                </section>
-                <section class="call-action">
-                  <div class="container">
-                    <h2>Follow DIFFE để cập nhật nhiều mẫu kính hot nhé !</h2>
-                    <div class="group-social">
-                      <a href="#">
-                        <img src="./assets/trangchu/social-facebook.png" alt="" />
-                      </a>
-                      <a href="#" class="insta">
-                        <img src="./assets/trangchu/social-ing.png" alt="" />
-                      </a>
-                      <a href="#">
-                        <img src="./assets/trangchu/social-tiktok.png" alt="" />
-                      </a>
-                    </div>
-                  </div>
-                </section>
-              </main>
-              <footer>
-                <div class="containter">
-                  <div class="footer__header">
-                    <img src="./assets/DIFEYewear_Logo.png" alt="" />
-                  </div>
-                  <div class="footer__body container">
-                    <div class="footer__grid">
-                      <div class="footer__item">
-                        <h3>DIFFEyewear</h3>
-                        <ul>
-                          <li class="bold">
-                            Công ty TNHH Thương mại và dịch vụ DIFFE Group Việt Nam
-                          </li>
-                          <li>Mã số thuế: 12036598</li>
-                          <li>Địa chỉ: 60 Man Thiện, phường Tăng Nhơn Phú, Thành phố Thủ Đức</li>
-                          <li>Email: diffeyewear01@gmail.com</li>
-                          <li>Hotline: 0356649625</li>
-                        </ul>
-                      </div>
-                      <div class="footer__item">
-                        <h3>Hệ thống DIFFEyewwear</h3>
-                        <ul>
-                          <li>
-                            <span class="bold">Quận 1:</span> 35 Nguyễn Đình Chiểu, phường Đa Kao,
-                            quận 1, Thành phố Hồ Chí Minh
-                          </li>
-                          <li>
-                            <span class="bold">Quận 3:</span> 60 Lê Văn Sỹ, phường Tam Bình, quận 3,
-                            Thành phố Hồ Chí Minh
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="footer__item">
-                        <h3>Sản phẩm</h3>
-                        <ul>
-                          <li>Gọng kính cận</li>
-                          <li>Gọng kính râm</li>
-                          <li>Tròng kính</li>
-                          <li>Phụ kiện</li>
-                        </ul>
-                      </div>
-                      <div class="footer__item">
-                        <h3>Chính sách</h3>
-                        <ul>
-                          <li>Khám mắt miễn phí</li>
-                          <li>Bảo hành</li>
-                          <li>Đổi trả</li>
-                          <li>Thu cũ - đổi mới</li>
-                          <li>Chính sách bảo mật</li>
-                          <li>Vận chuyển</li>
-                        </ul>
-                      </div>
-                      <div class="footer__item">
-                        <h3>Tin tức</h3>
-                        <ul>
-                          <li>Bảo vệ mắt</li>
-                          <li>Kiến thức</li>
-                          <li>Sức khỏe</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="footer__copyright">
-                    <span>© Photo, Inc. 2022. We love our customer!</span>
-                  </div>
-                </div>
-              </footer>
+      <header class="header">
+        <div class="header-top container">
+          <h2 class="header__logo">DIFFEyewear</h2>
+          <div class="header__menu">
+            <div class="header__search">
+              <input type="text" placeholder="Tìm kiếm..." />
+              <button class="btn btn-square btn-search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
             </div>
+            <a class="btn btn-square btn_cart" href="/order/cart.html">
+              <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            </a>
+            <a class="btn btn-primary" href="./log-in.html">Login</a>
           </div>
-          <script src="./js/data.js"></script>
-          <script src="./js/home.js"></script>
-        </body>
-      </html>
+        </div>
+        <div class="header-bottom">
+          <ul>
+            <li>
+              <a href="/">Trang chủ</a>
+            </li>
+            <li>
+              <a href="/products/all.html">Sản phẩm</a>
+            </li>
+            <li>
+              <a href="/services.html">Dịch vụ</a>
+            </li>
+            <li>
+              <a href="/promotes.html">Ưu đãi</a>
+            </li>
+            <li>
+              <a href="/blog.html">DIFFE Blog</a>
+            </li>
+            <li>
+              <a href="/order/search.html">Tra cứu đơn hàng</a>
+            </li>
+          </ul>
+        </div>
+      </header>
 
       <div class="page-content">
         <main>
@@ -618,7 +286,6 @@
         </footer>
       </div>
     </div>
-
     <script src="../js/data.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/categories/load-products.js"></script>

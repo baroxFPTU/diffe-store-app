@@ -2,6 +2,10 @@ function setProduct(product) {
   localStorage.setItem('view-product', JSON.stringify(product));
 }
 
+function setProductType(type) {
+  localStorage.setItem('product-type', type);
+}
+
 function renderProducts(productsDOMString, productList) {
   const productsDOM = document.querySelector(`.${productsDOMString}`);
 
@@ -17,8 +21,10 @@ function renderProducts(productsDOMString, productList) {
             />
           </div>
           <div class="product__info">
-            <h3 class="product__title"><a href="/products/detail.html" onClick="setProduct({name: '${product.name}', id: ${product.id}})">${product.name}</a></h3>
-            <span class="product__price">${product.price}đ</span>
+            <h3 class="product__title"><a href="/products/detail.html" onClick="setProduct({name: '${
+              product.name
+            }', id: ${product.id}})">${product.name}</a></h3>
+            <span class="product__price">${formatCurrency(product.price)}</span>
           </div>
           </div>
         `;
@@ -57,6 +63,7 @@ const cart = getCart(); //Get cart list from localStorage. Be empty array if don
 function setCart(cart) {
   const filteredCart = cart.filter((item) => item.amount != 0);
   localStorage.setItem('cart', JSON.stringify(filteredCart));
+  updateAmountCartButton();
 }
 
 function getCart() {
@@ -80,6 +87,7 @@ function addToCart(product) {
   }
 
   setCart(cart);
+  alert('Thêm sản phẩm thành công.');
 }
 
 function increaseAmount(itemName, callback) {
@@ -94,6 +102,7 @@ function increaseAmount(itemName, callback) {
 function decreaseAmount(itemName, callback) {
   cart.forEach((item) => {
     if (item.name === itemName && item.amount > 0) item.amount -= 1;
+    if (item.amount === 0) renderCart(getCart());
   });
 
   setCart(cart);
@@ -101,8 +110,17 @@ function decreaseAmount(itemName, callback) {
 }
 
 function updateAmountCartButton() {
+  const totalAmount = getCart().reduce((total, item) => (total += item.amount), 0);
   const cartBtn = document.querySelector('.btn_cart');
-  console.log({ cartBtn });
+  const cartBtnAfter = cartBtn.querySelector('::after');
+  document.documentElement.style.setProperty('--amount', `"${totalAmount ?? 0}"`);
 }
 
-updateAmountCartButton(0);
+function formatCurrency(currency) {
+  return currency.toLocaleString('it-IT', { style: 'currency', currency: 'VND' });
+}
+
+function clearAllData() {
+  localStorage.removeItem('cart');
+}
+updateAmountCartButton();

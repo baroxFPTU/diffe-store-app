@@ -32,82 +32,46 @@
                 <i class="fa fa-search" aria-hidden="true"></i>
               </button>
             </div>
-            <button class="btn btn-square btn_cart">
+            <a class="btn btn-square btn_cart" href="/order/cart.html">
               <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-            </button>
-            <button class="btn btn-primary">Login</button>
+            </a>
+            <a class="btn btn-primary" href="./log-in.html">Login</a>
           </div>
         </div>
         <div class="header-bottom">
           <ul>
             <li>
-              <a href="#">Trang chủ</a>
+              <a href="/">Trang chủ</a>
             </li>
             <li>
-              <a href="#">Sản phẩm</a>
+              <a href="/products/all.html">Sản phẩm</a>
             </li>
             <li>
-              <a href="#">Dịch vụ</a>
+              <a href="/services.html">Dịch vụ</a>
             </li>
             <li>
-              <a class="active" href="#">Ưu đãi</a>
+              <a href="/promotes.html">Ưu đãi</a>
             </li>
             <li>
-              <a href="#">DIFFE Blog</a>
+              <a class="active" href="/blog.html">DIFFE Blog</a>
             </li>
             <li>
-              <a href="#">Tra cứu đơn hàng</a>
+              <a href="/order/search.html">Tra cứu đơn hàng</a>
             </li>
           </ul>
         </div>
       </header>
+
       <div class="page-content">
         <main>
           <section class="page-banner">
-            <img src="./assets/DIFFE Blog/nền banner.jpg" alt="" />
+            <img src="./assets/DIFFE_Blog/blog_banner.jpg" alt="" />
             <div class="page-banner__content container">
               <h2>MẮT KHỎE CÙNG “DIFFE BLOG”</h2>
             </div>
           </section>
           <section class="posts container">
-            <div class="blog-grid">
-              <article class="blogpost">
-                <div class="blogpost__thumb">
-                  <img src="./assets/DIFFE Blog/bài 1.jpg" alt="" />
-                </div>
-                <div class="blogpost__info">
-                  <h3><a href="#">HƯỚNG DẪN SỬA GỌNG KÍNH TẠI NHÀ</a></h3>
-                  <time>20/11/2022</time>
-                </div>
-              </article>
-              <article class="blogpost">
-                <div class="blogpost__thumb">
-                  <img src="./assets/DIFFE Blog/bài 2.jpg" alt="" />
-                </div>
-                <div class="blogpost__info">
-                  <h3><a href="#">TRÒNG KÍNH ESSILOR EYEZEN CRIZAL: PHÉP MÀU CỦA CÔNG NGHỆ</a></h3>
-                  <time>20/11/2022</time>
-                </div>
-              </article>
-              <article class="blogpost">
-                <div class="blogpost__thumb">
-                  <img src="./assets/DIFFE Blog/bài 3.jpg" alt="" />
-                </div>
-                <div class="blogpost__info">
-                  <h3><a href="#">MẸO CHỌN GỌNG KÍNH THEO KHUÔN MẶT - BẠN ĐÃ BIẾT?</a></h3>
-                  <time>20/11/2022</time>
-                </div>
-              </article>
-              <article class="blogpost">
-                <div class="blogpost__thumb">
-                  <img src="./assets/DIFFE Blog/bài 4.jpg" alt="" />
-                </div>
-                <div class="blogpost__info">
-                  <h3><a href="#">CÙNG DIFFE ĂN GÌ ĐỂ TỐT CHO MẮT CỦA BẠN </a></h3>
-                  <time>20/11/2022</time>
-                </div>
-              </article>
-            </div>
+            <div class="blog-grid"></div>
           </section>
         </main>
         <footer>
@@ -177,5 +141,9 @@
         </footer>
       </div>
     </div>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/blog.js"></script>
   </body>
 </html>
