@@ -1,9 +1,17 @@
 main {
-  background: url('../assets/7195232.jpg');
+  position: relative;
+  background: url('../assets/lensabl-0GfPlommtxM-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
+}
+
+main:after {
+  position: absolute;
+  content: '';
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 main .container {
@@ -11,6 +19,8 @@ main .container {
 }
 
 .search-order-modal {
+  position: absolute;
+  z-index: 99;
   max-width: 900px;
   padding: 64px 128px;
   border-radius: 18px;

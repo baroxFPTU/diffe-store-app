@@ -354,6 +354,7 @@ button,
   text-align: center;
   padding: 24px 0;
   margin: 81px 0;
+  text-transform: uppercase;
 }
 
 .section__title::before {
@@ -384,6 +385,7 @@ button,
   padding: 24px 0;
   margin: 81px 0;
   z-index: 9;
+  text-transform: uppercase;
   /* width: fit-content; */
 }
 .section__title-left::after {
@@ -613,7 +615,7 @@ footer {
   text-transform: uppercase;
   color: #fff;
   text-align: center;
-  font-size: 3rem;
+  font-size: 3.6rem;
   max-width: 50vw;
 }
 
